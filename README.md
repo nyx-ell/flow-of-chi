@@ -14,7 +14,9 @@ It models classic feng shui ideas, such as the command position, the "mouth of c
 
 ## Built with
 
-Vanilla JavaScript and the Canvas 2D API in a single HTML file. No framework, no build step, no dependencies. Google Fonts is the only external request.
+Vanilla JavaScript and the Canvas 2D API in a single HTML file. No framework, no build step, no runtime dependencies. Google Fonts is the only external request.
+
+To regenerate the social image: `npm install`, `npx playwright install chromium`, then `npm run og`.
 
 ## Run it locally
 
